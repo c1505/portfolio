@@ -458,3 +458,7 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+#profile {
+  border-radius: 50px;
+}

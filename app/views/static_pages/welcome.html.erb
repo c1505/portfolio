@@ -20,14 +20,13 @@
         <hr class="star-primary">
         <div class="row">
           <div class="col-sm-4 portfolio-item">
-            <h5>Agile Ventures</h5>
             <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <%= image_tag "agile_ventures_logo.png", class: "img-fluid" %>
+              <%= image_tag "agile_ventures.png", class: "img-fluid" %>
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
@@ -72,17 +71,6 @@
               <%= image_tag "cards_against.png", class: "img-fluid" %>
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <%= image_tag "", class: "img-fluid" %>
-            </a>
-            <h5>Instead of TV</h5>
-          </div>
         </div>
       </div>
     </section>
@@ -94,8 +82,9 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <p>I am a software developer and current biologist.  I became interested in programming a few years ago because of the desire to automate some routine tasks.  After learning on my own for awhile, I joined the Flatiron School programming bootcamp focused on Ruby on Rails, JavaScript, and Angular. I graduated from the Flatiron School and joined Agile Ventures where I have been able to contribute new features to an existing codebase.
-            I continue to learn by working on personal projects, code exercises, and reading programming books and blogs.</p>
+            <p>I am a software developer and current biologist.  I became interested in programming a few years ago because of the desire to automate some routine tasks.  
+            After learning on my own, I joined the Flatiron School programming bootcamp focused on Ruby on Rails, JavaScript, and Angular. I graduated from the flatiron school and
+            continue to learn by contributing to open source, working on personal projects, code exercises, and reading programming books and blogs.</p>
           </div>
         </div>
 
@@ -163,3 +152,7 @@
 
     <!-- Portfolio Modals -->
     <%= render "lose_gain" %>
+    <%= render "choose_game" %>
+    <%= render "job_tracker" %>
+    <%= render "cards" %>
+    <%= render "agile_ventures" %>

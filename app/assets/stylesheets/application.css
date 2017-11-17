@@ -461,4 +461,5 @@ footer {
 
 #profile {
   border-radius: 50px;
+  max-height: 300px;
 }
